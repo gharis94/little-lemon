@@ -10,8 +10,8 @@ const About = () => {
       </div>
       <div className='relative'>
         
-            <img src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8' className='h-[300px] w-[250px] object-fill  absolute right-10 top-20'/>
-            <img src='https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80' className='h-[300px] w-[250px] object-fill  absolute right-25 top-60' />
+            <img src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8' className='h-[300px] w-[250px] object-fill  absolute right-[4rem] top-20 rounded-lg'/>
+            <img src='https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80' className='h-[300px] w-[250px] object-fill  absolute right-[15rem] top-60 rounded-lg' />
             
         
       </div>

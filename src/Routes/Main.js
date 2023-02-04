@@ -11,18 +11,18 @@ const Main = () => {
   const menuRef = useRef(null)
   const testinomialRef = useRef(null)
   const aboutRef = useRef(null)
-
+ 
 
   const executeScroll=(ref)=>window.scrollTo({behavior:'smooth',top:ref.current?.offsetTop})
   return (
     <>
-      <header className='py-2 px-6 flex justify-between items-center '>
-        <img src={logo} className='h-10'/>
-        <NavBar scroll={executeScroll} home={homeRef} menu={menuRef} testinomial={testinomialRef} about={aboutRef}/>
+      <header className='py-2 px-6 flex w-screen justify-between items-center fixed z-10 bg-white bg-opacity-50  bg-blur-sm drop-shadow-lg'>
+        <img src={logo} className='h-10 '/>
+        <NavBar  scroll={executeScroll} home={homeRef} menu={menuRef} testinomial={testinomialRef} about={aboutRef}/>
       </header>
       <main>
           <section section ref = {homeRef}
-          style = {{height: '90vh',backgroundColor: '#495E57'}}>
+          style = {{height: '100vh',backgroundColor: '#495E57'}}>
             <Banner/>
           </section>
           <section  ref = {menuRef} style = {{height: '100vh'}}>
