@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({img}) => {
   return (
     <div className = 'flex flex-col max-w-[200px] h-[20rem] drop-shadow-2xl bg-white overflow-hidden' >
-        <img src={img} className='h-1/2'/>
+        <img src={img} alt='dish' className='h-1/2'/>
         <div className='flex flex-col mx-2 '>
             <div className='flex justify-between tex-lg mt-1'>
                 <p>Dish Name</p>

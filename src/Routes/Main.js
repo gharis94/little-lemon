@@ -4,7 +4,6 @@ import Banner from '../Components/Banner/Banner';
 import NavBar from '../Components/NavBar/NavBar';
 import Testinomial from '../Components/Testinomial/Testinomial';
 import Menu from '../Components/Menu/Menu';
-import logo from '../asset/logo.png'
 
 
 const Main = () => {

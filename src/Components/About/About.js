@@ -10,8 +10,8 @@ const About = () => {
       </div>
       <div className=' sm:relative flex space-x-1 justify-center'>
         
-            <img src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8' className='h-[20rem] w-[15rem] object-fill  sm:absolute sm:right-[4rem] sm:top-20 rounded-lg'/>
-            <img src='https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80' className='h-[20rem] w-[15rem] object-fill  sm:absolute sm:right-[15rem] sm:top-60 rounded-lg' />
+            <img src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8' alt='p1' className='h-[20rem] w-[15rem] object-fill  sm:absolute sm:right-[4rem] sm:top-20 rounded-lg'/>
+            <img src='https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80' alt='p2' className='h-[20rem] w-[15rem] object-fill  sm:absolute sm:right-[15rem] sm:top-60 rounded-lg' />
             
         
       </div>

@@ -9,7 +9,7 @@ const NavBar = ({scroll,home,menu,testinomial,about}) => {
   return (
       <nav className=' relative' >
             <div  className = ' px-4 flex w-screen justify-between items-center relative  bg-white bg-opacity-50  bg-blur-sm drop-shadow-lg' >
-            <img src={logo} className='h-10 '/>
+            <img src={logo} alt='logo' className='h-10 '/>
             
             {!state && <div className='mr-5 sm:hidden'>
               <AiOutlineMenu className='h-6 w-6 text-gray-700 hover:text-yellow-400' onClick={()=>setState(true)}/>

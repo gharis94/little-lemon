@@ -1,5 +1,5 @@
 import React from 'react'
-import FeedComponent from '../FeedComponent/FeedComponent'
+
 import TweetCarosal from '../TweetCarosal/TweetCarosal'
 
 const Testinomial = () => {
