@@ -12,7 +12,7 @@ const Menu = () => {
           <a className='bg-yellow-300 px-10 py-2 rounded-lg text-gray-700 active:bg-yellow-500 hover:bg-yellow-500' 
           href='https://classy-buttercream-e11ba7.netlify.app/'>Order</a>
       </div>
-      <div className='flex justify-center items-center space-x-5 mt-24'>
+      <div className='flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-5 mt-24'>
         <Card img={dish}/>
         <Card img={didh}/>
         <Card img={salad}/>

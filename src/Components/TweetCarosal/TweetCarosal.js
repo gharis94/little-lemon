@@ -6,7 +6,8 @@ import FeedComponent from '../FeedComponent/FeedComponent';
 
 const TweetCarosal = () => {
   return (
-    <Carousel width='100%' 
+    <Carousel
+  
         centerMode={true} 
         centerSlidePercentage={100}
         autoPlay={true}
